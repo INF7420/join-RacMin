@@ -16,8 +16,6 @@ Main Content - the homepage's content will include an introductory image, either
 
 Footer - the site's footer will include copyright information, as well as links to the site's privacy policy and list of disclaimers. Those will be right-aligned, while a link to move the user back to the top of the page will also be found in the footer, but left-aligned. This will be the same on all pages.
 
-
-
 ![Wireframe of the About Me Page](wireframes/aboutme.JPG)
 
 Header - the header will include my site logo, and the navigation menu. Above the latter will also be an area that allows users to search the site, and subscribe to receive notifications for when I update with a new post.
@@ -27,7 +25,6 @@ Navigation Menu - this will include links to other pages available on the site, 
 Main Content - The About Me page would be pretty straight forward, having a welcoming banner at the top, followed by an overview explaining who I am, and why I created the site, as well as what types of foods and recipes the site will feature. Beneath that will have a related picture, again, either of me, or something important to me such as my favorite recipe from the site.
 
 Footer - the site's footer will include copyright information, as well as links to the site's privacy policy and list of disclaimers. Those will be right-aligned, while a link to move the user back to the top of the page will also be found in the footer, but left-aligned.
-
 
 ![Wireframe of the Contact Me Page](wireframes/contactme.JPG)
 

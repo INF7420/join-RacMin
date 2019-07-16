@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Description" content="INF 7420 Project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Keep On Snacking</title><br>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 
 <body>
@@ -18,34 +20,54 @@
       <a href="FAQ.html">FAQ</a>
       <a href="contact.html">Contact</a>
 	</nav>
+    </div>
+  <div class="body">
+      <h1 align="center">Need to Get In Touch?</h1>
+<p align="center">Please fill out the form below.</p>
+<form action="https://formspree.io/gy2244@wayne.edu" method="POST" class="validate">
+  <div>
+    <label for="name">Name (Required)
+      <input id="name" type="text" name="name" class="form-input" required>
+    </label>
+  </div>
+
+  <div>
+    <label for="email">Email Address (Required)
+      <input id="email" type="email" name="_replyto" class="form-input" required>
+    </label>
+  </div>
+
+  <div>
+    <label for="message">Leave a Comment (Required)
+      <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
+    </label>
+  </div>
+
+  <div>
+    <input type="submit" value="Send" />
+  </div>
+
+  <input type="hidden" name="_subject" value="Email from Class Project!" />
+  <input type="text" name="_gotcha" style="display:none" />
+</form>
 </div>
 
-  <div class="body">
-      <h1 align="center"><br>
-    Need to Get In Contact?</h1>
-<p align="center">If you need to get in touch with me for any reason, please fill out the form below.</p>
-<form action="/action_page.php">
-<p align="center">Name (Required):
-  <br>
-  <input type="text" name="firstname" value="Enter Here">
-  <br>
-  <br>
-  Email Address (Required):
-  <br>
-  <input type="text" name="lastname" value="Enter Here">
-  <br>
-  <br>
-  Leave a Comment:<br>
-  <input type="text" name="lastname" value="Enter Comment Here">
-  <br>
-  <br>
-  <input type="submit" value="Submit">
-</p>
-</form>
-
-<p align="center">&nbsp;</p>
-<p align="center"><img src="images/shepherdspie.jpg" alt="shepherd's pie" width="175" height="175"><img src="images/chicken-burrito.jpg" alt="chicken burrito" width="175" height="175"><img src="images/chicken-alfredo-penne.jpg" alt="penne alfredo" width="175" height="175"><img src="images/images.jpg" alt="roast" width="175" height="175"><img src="Images/flan.jpg" alt="flan" width="175" height="175"><img src="images/springroll.jpg" alt="springroll" width="175" height="175"></p>
-  </div>
+<div class="carousel">
+      <img src="images/shepherdspie.jpg" alt="shepherd's pie" name="shepherd's pie" width="175" height="175" id="shepherd's pie" />
+      <img src="images/chicken-burrito.jpg" alt="chicken burrito" name="chicken burrito" width="175" height="175" id="chicken burrito" />
+      <img src="images/chicken-alfredo-penne.jpg" alt="penne alfredo" name="penne alfredo" width="175" height="175" id="penne alfredo" />     
+      <img src="images/roast.jpg" alt="roast" name="roast" width="175" height="175" id="roast" />
+      <img src="images/flan.jpg" alt="flan" name="flan" width="175" height="175" id="flan" />
+      <img src="images/springroll.jpg" alt="springroll" name="spring roll" width="175" height="175" id="springroll" />
+      <img src="images/herohoagie.jpg" alt="herohoagie" name="hero hoagie" width="175" height="175" id="herohoagie" />
+      <img src="images/lavacake.jpg" alt="lavacake" name="lava cake" width="175" height="175" id="lavacake" /> 
+      <img src="images/matcha.jpg" alt="matchaicecream" name="matcha icecream" width="175" height="175" id="matchaicecream" />     
+      <img src="images/pumpkinpie.jpg" alt="pumpkinpie" name="pumpkin pie" width="175" height="175" id="pumpkinpie" />    
+      <img src="images/ramensoup.jpg" alt="ramensoup" name="ramen soup" width="175" height="175" id="ramensoup" />
+      <img src="images/vanillacupcake.jpg" alt="vanillacupcake" name="vanilla cupcake" width="175" height="175" id="vanillacupcake" />
+      <img src="images/peachcobbler.jpg" alt="peachcobbler" name="peach cobbler" width="175" height="175" id="peachcobbler" />
+      <img src="images/tortillachips.jpg" alt="tortillachips" name="tortilla chips" width="175" height="175" id="tortillachips" />     
+      </div>
 
     <div class="footer">
       <p align="right">          <br>
@@ -54,6 +76,22 @@
     Privacy Policy and Disclaimers <br>
 <br>
 </p>
-  </div>
+</div>
+  
+  
+  <script src="script.js"></script> 
+  <script type="text/javascript" src="slick/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="slick/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+$('.carousel').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+  </script>
+  
 </body>
 </html>
